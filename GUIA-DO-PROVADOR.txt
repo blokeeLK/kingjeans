@@ -1,5 +1,12 @@
 KING JEANS — GUIA DO PROVADOR INTERATIVO
 
+VERSÃO CORRIGIDA
+
+Este pacote contém o HTML completo, as duas logos, o manequim branco, as quatro
+peças enviadas e imagens iniciais para o carrossel. As peças foram calibradas
+individualmente no index.html para permanecerem alinhadas ao manequim em telas
+grandes e pequenas.
+
 1. PUBLICAÇÃO
 
 Envie o arquivo index.html e a pasta assets para a raiz do mesmo repositório no GitHub.
@@ -45,15 +52,14 @@ assets/provador/calcados/chinelo1.png
 assets/provador/calcados/chinelo2.png
 assets/provador/calcados/chinelo3.png
 
-6. REGRA ESSENCIAL PARA A MONTAGEM
+6. REGRA ESSENCIAL PARA NOVAS PEÇAS
 
-O manequim e todas as roupas precisam ter exatamente o mesmo tamanho de tela,
-preferencialmente 1024 x 1536 pixels. As imagens das roupas precisam ter fundo
-transparente e cada peça deve estar posicionada exatamente sobre a região correta
-do manequim. Não recorte cada roupa em um tamanho diferente.
+As imagens das roupas precisam ser PNG com fundo transparente e vistas de frente.
+As quatro peças incluídas já estão configuradas e alinhadas. Para uma nova peça,
+mantenha o nome previsto e, se a proporção for diferente, ajuste no respectivo botão
+do index.html os campos data-width, data-top e data-left.
 
-Exemplo: camisas1.png deve possuir uma tela transparente de 1024 x 1536 pixels,
-com somente a camisa visível na posição correta. Todo o restante deve ser transparente.
+Exemplo: data-width="52%" data-top="15.5%" data-left="50%".
 
 7. COMO TROCAR AS FOTOS
 
@@ -68,15 +74,23 @@ incluindo 55, DDD e número. Exemplo de formato: 5537999999999.
 
 9. OUTRAS IMAGENS DO SITE
 
-Mantenha na raiz do projeto:
+O pacote já inclui na raiz imagens iniciais para:
 
 polo1.png
 jeans1.png
 camisetas1.png
 novidades1.png
+
+Substitua essas quatro imagens pelas fotos definitivas da loja mantendo os nomes.
+
+Os depoimentos reais devem ser adicionados na raiz com estes nomes:
+
 dep1.png
 dep2.png
 dep3.png
 
-Enquanto uma imagem do provador não estiver no repositório, o botão exibirá o nome
-do arquivo esperado. Isso é proposital e evita imagem quebrada ou falha no site.
+Enquanto esses três depoimentos não forem enviados, o site mostra um cartão de
+espera profissional, sem ícone de imagem quebrada.
+
+Enquanto uma futura imagem do provador não estiver no repositório, o botão exibirá
+o nome do arquivo esperado. Isso evita imagem quebrada e mantém o site funcional.

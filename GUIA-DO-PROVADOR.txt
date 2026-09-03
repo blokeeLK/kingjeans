@@ -1,0 +1,75 @@
+KING JEANS — GUIA DO PROVADOR INTERATIVO
+
+1. PUBLICAÇÃO
+
+Envie o arquivo index.html e a pasta assets para a raiz do mesmo repositório no GitHub.
+A Vercel reconhecerá o index.html automaticamente como página principal.
+
+2. MANEQUIM
+
+Coloque o manequim branco neste endereço:
+
+assets/provador/manequim-base.png
+
+3. PARTE DE CIMA
+
+assets/provador/superiores/camisas1.png
+assets/provador/superiores/camisas2.png
+assets/provador/superiores/camisas3.png
+assets/provador/superiores/frio1.png
+assets/provador/superiores/frio2.png
+assets/provador/superiores/frio3.png
+
+4. PARTE DE BAIXO
+
+assets/provador/inferiores/bermuda1.png
+assets/provador/inferiores/bermuda2.png
+assets/provador/inferiores/bermuda3.png
+assets/provador/inferiores/calca1.png
+assets/provador/inferiores/calca2.png
+assets/provador/inferiores/calca3.png
+
+5. CALÇADOS
+
+assets/provador/calcados/tenis1.png
+assets/provador/calcados/tenis2.png
+assets/provador/calcados/tenis3.png
+assets/provador/calcados/chinelo1.png
+assets/provador/calcados/chinelo2.png
+assets/provador/calcados/chinelo3.png
+
+6. REGRA ESSENCIAL PARA A MONTAGEM
+
+O manequim e todas as roupas precisam ter exatamente o mesmo tamanho de tela,
+preferencialmente 1000 x 1500 pixels. As imagens das roupas precisam ter fundo
+transparente e cada peça deve estar posicionada exatamente sobre a região correta
+do manequim. Não recorte cada roupa em um tamanho diferente.
+
+Exemplo: camisas1.png deve possuir uma tela transparente de 1000 x 1500 pixels,
+com somente a camisa visível na posição correta. Todo o restante deve ser transparente.
+
+7. COMO TROCAR AS FOTOS
+
+Substitua o arquivo mantendo exatamente o mesmo nome e caminho. Após enviar a nova
+versão ao GitHub e a Vercel concluir a publicação, o site utilizará a imagem nova sem
+necessidade de modificar o HTML.
+
+8. WHATSAPP
+
+No final do index.html existe SITE_CONFIG. Preencha whatsappNumber apenas com números,
+incluindo 55, DDD e número. Exemplo de formato: 5537999999999.
+
+9. OUTRAS IMAGENS DO SITE
+
+Mantenha na raiz do projeto:
+
+polo1.png
+jeans1.png
+camisetas1.png
+novidades1.png
+dep1.png
+dep2.png
+dep3.png
+
+Enquanto uma imagem do provador não estiver no repositório, o botão exibirá o nome
+do arquivo esperado. Isso é proposital e evita imagem quebrada ou falha no site.

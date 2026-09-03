@@ -7,9 +7,12 @@ A Vercel reconhecerá o index.html automaticamente como página principal.
 
 2. MANEQUIM
 
-Coloque o manequim branco neste endereço:
+O pacote já inclui um manequim branco realista e transparente neste endereço:
 
 assets/provador/manequim-base.png
+
+Você pode substituí-lo futuramente, desde que preserve o mesmo nome e o tamanho
+de tela de 1024 x 1536 pixels.
 
 3. PARTE DE CIMA
 
@@ -20,6 +23,8 @@ assets/provador/superiores/frio1.png
 assets/provador/superiores/frio2.png
 assets/provador/superiores/frio3.png
 
+O pacote já inclui camisas1.png (camiseta preta) e camisas2.png (polo azul).
+
 4. PARTE DE BAIXO
 
 assets/provador/inferiores/bermuda1.png
@@ -28,6 +33,8 @@ assets/provador/inferiores/bermuda3.png
 assets/provador/inferiores/calca1.png
 assets/provador/inferiores/calca2.png
 assets/provador/inferiores/calca3.png
+
+O pacote já inclui bermuda1.png (bermuda preta) e bermuda2.png (bermuda cargo).
 
 5. CALÇADOS
 
@@ -41,11 +48,11 @@ assets/provador/calcados/chinelo3.png
 6. REGRA ESSENCIAL PARA A MONTAGEM
 
 O manequim e todas as roupas precisam ter exatamente o mesmo tamanho de tela,
-preferencialmente 1000 x 1500 pixels. As imagens das roupas precisam ter fundo
+preferencialmente 1024 x 1536 pixels. As imagens das roupas precisam ter fundo
 transparente e cada peça deve estar posicionada exatamente sobre a região correta
 do manequim. Não recorte cada roupa em um tamanho diferente.
 
-Exemplo: camisas1.png deve possuir uma tela transparente de 1000 x 1500 pixels,
+Exemplo: camisas1.png deve possuir uma tela transparente de 1024 x 1536 pixels,
 com somente a camisa visível na posição correta. Todo o restante deve ser transparente.
 
 7. COMO TROCAR AS FOTOS
